@@ -1,38 +1,85 @@
+* {
+  margin: 0;
+}
+
 .App {
+  background-color: rgb(234, 237, 237);
+}
+
+footer p {
+  margin-top: 20px;
+}
+
+footer {
+  text-align: center;
+  margin: 20px;
+}
+
+.new__customer button {
+  background-color: rgb(255, 216, 18);
+  border-radius: 8px;
+  border: none;
+  padding: 10px;
+  width: 20%;
+  font-weight: bold;
+  margin: 5px;
+}
+
+.new__customer button:hover {
+  cursor: pointer;
+  background-color: rgb(255, 200, 18);
+}
+
+.new__customer button:active {
+  cursor: pointer;
+  background-color: rgb(255, 216, 18);
+}
+
+.new__customer p {
+  font-size: medium;
+  margin: 10px 5px 0 5px;
+}
+
+.back__toTop {
+  color: white;
+  background-color: rgb(55, 71, 90);
+  width: 100%;
+  padding: 20px 0;
+  margin: 20px 0 0 0;
+  border: none;
+  font-weight: bold;
+  border-radius: 0;
+}
+
+.back__toTop:hover {
+  background-color: rgb(74, 94, 119);
+}
+
+.conditions {
+  background-color: rgb(35, 46, 63);
+  color: white;
+  text-align: center;
+  padding: 20px;
+  height: 40px;
+  font-weight: bold;
+  font-size: x-small;
+}
+
+.to__login__page a {
+  text-decoration: none;
+  color: rgb(0, 113, 133);
+}
+
+.new__customer {
+  font-size: small;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.footer {
+  width: 100%;
+  position: relative;
+  /* top: 50%; */
+  /* height: 100vh; */
+  /* bottom: 0; */
+  margin: 0;
 }

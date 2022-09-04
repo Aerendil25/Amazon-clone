@@ -1,0 +1,33 @@
+.checkoutProduct {
+  display: flex;
+  background-color: white;
+  padding: 20px;
+}
+
+.checkoutProduct__image {
+  object-fit: contain;
+  width: 180px;
+  height: 180px;
+}
+
+.checkoutProduct__info {
+  padding-left: 20px;
+}
+
+.checkoutProduct__rating {
+  display: flex;
+}
+
+.checkoutProduct__title {
+  font-size: 17px;
+  font-weight: 800;
+}
+
+.delete__button {
+  color: rgb(0, 113, 133);
+}
+
+.delete__button:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
